@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Maggie Burke -->
+<!-- [date] -->
+<!-- [description] -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Homework Sample Page</title>
+	  <style type="text/css">
+	  @media all
+	  {
+		body		{	position: relative;
+						width:900px
+					}
+		.questionnaire {	color:white;
+							background-color:slategray;
+							border-width:10px;
+							border-style:groove;
+							padding:20px}
+		h1			{	font-family:arial, sans-serif;
+						font-size: 1.5em;
+						text-decoration: underline;
+					}
+		h2			{	font-family:arial, sans-serif;
+						font-size: 1.25em;
+					}
+		h3			{	font-family:arial, sans-serif;
+						font-size: 1em;
+					}
+		th			{	text-align:left}
+		.leftColumn	{	position: relative;
+						float: left
+					}
+		.rightColumn{	position: relative;
+						background-color:white;
+						float: left;
+						padding: 20px;
+						border-width:10px;
+						border-style:groove;
+						width: 400px
+					}
+		.bottom		{	position: relative;
+						float: left
+					}
+		a			{	text-decoration:none;
+						color: royalblue}
+		a:hover		{	text-decoration:underline}
+		}
+		@media print
+		.questionnaire {	color:black;
+							background-color:white;
+						}
+	  </style>
+   </head>
+
+   <body>
+      <h1>Maggie Burke</h1>
+	  <div class="questionnaire">
+	  <h2>Do you like to run?</h2>
+	  <h3>Choose your favorite distance(s) and favorite season to run:</h3>
+	  <form method="post" action="">
+	  <p>
+		<label>Time of year:
+			<select name="timeOfYear">
+				<option selected="selected">Winter</option>
+				<option>Spring</option>
+				<option>Summer</option>
+				<option>Fall</option>
+			</select>
+		</label>
+	   </p>
+	   <p>
+	   Distance: <br />
+	   <label>5K <input name="distance" type="checkbox" value="5k" />
+	   </label>
+	   <label>5 Mile <input name="distance" type="checkbox" value="5m" />
+	   </label>
+	   <label>10K <input name="distance" type="checkbox" value="10k" />
+	   </label>
+	   <label>10 mile <input name="distance" type="checkbox" value="10m" />
+	   </label>
+	   <label>Half marathon <input name="distance" type="checkbox" value="131m" />
+	   </label>
+	   <label>Marathon <input name="distance" type="checkbox" value="262m" />
+	   </label>
+	   <p>
+		<input type="submit" value="Submit" />
+		<input type="reset" value="Reset" />
+		</p>
+	  </form>
+	  </div>
+	  
+	  <div class="leftColumn">
+		<img src="goldenGateRunSmaller.jpg" width="438" height="384" alt="Map of a run over the GG Bridge in San Francisco">
+	  </div>
+	  <div class="rightColumn">
+		<h3>Favorite Runs</h3>
+		<table border="0" summary = "This table contains the contents of Part I: This World">
+			<thead>
+				<tr>
+					<th>Distance</th>
+					<th>Location</th>
+				</tr>
+			</thead>
+				
+			<tbody>
+				<tr>
+					<td>11.6 miles</td>
+					<td>Golden Gate Bridge</td>
+				</tr>
+				<tr>
+					<td>26.2 miles</td>
+					<td>Amica (Newport) Marathon</td>
+				</tr>
+				<tr>
+					<td>13.1 miles</td>
+					<td>New Bedford Half Marathon</td>
+				</tr>
+				<tr>
+					<td>4.8 miles</td>
+					<td>Little Compton Scenic Winter Road Race</td>
+				</tr>
+			</tbody>
+		</table>
+		<h3>Running Websites</h3>
+		<ul>
+			<li><a href="http://coolrunning.com/">Coolrunning.com</a></li>
+			<li><a href="http://www.marathonsports.com/">Marathon sports</a></li>
+			<li><a href="http://www.halhigdon.com/">Hal Higdon training programs</a></li>
+			<li><a href="http://www.reddit.com/r/running">reddit r/running</a></li>
+		</ul>
+	  </div>
+
+   </body>
+</html>
