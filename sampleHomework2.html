@@ -1,0 +1,138 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Maggie Burke -->
+<!-- [date] -->
+<!-- [description] -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Homework Sample Page</title>
+	  <style type="text/css">
+	  @media all
+	  {
+		body		{	position: relative;
+						width:900px
+					}
+		.questionnaire {	color:white;
+							background-color:slategray;
+							border-width:10px;
+							border-style:groove;
+							padding:20px}
+		h1			{	font-family:arial, sans-serif;
+						font-size: 1.5em;
+						text-decoration: underline;
+					}
+		h2			{	font-family:arial, sans-serif;
+						font-size: 1.25em;
+					}
+		h3			{	font-family:arial, sans-serif;
+						font-size: 1em;
+					}
+		th			{	text-align:left}
+		.leftColumn	{	position: relative;
+						float: left
+					}
+		.rightColumn{	position: relative;
+						background-color:white;
+						float: left;
+						padding: 20px;
+						border-width:10px;
+						border-style:groove;
+						width: 400px
+					}
+		.bottom		{	position: relative;
+						float: left
+					}
+		a			{	text-decoration:none;
+						color: royalblue}
+		a:hover		{	text-decoration:underline}
+		}
+		@media print
+		.questionnaire {	color:black;
+							background-color:white;
+						}
+	  </style>
+   </head>
+
+   <body>
+      <h1>Batman</h1>
+	  <div class="questionnaire">
+	  <h2>Do you like to travel?</h2>
+	  <h3>Choose your favorite destination and mode of travel:</h3>
+	  <form method="post" action="">
+	  <p>
+		<label>Destination:
+			<select name="timeOfYear">
+				<option selected="selected">Himalayan mountain top</option>
+				<option>Bhutanese prison</option>
+				<option>Hong Kong highrise</option>
+				<option>Arkham Asylum</option>
+			</select>
+		</label>
+	   </p>
+	   <p>
+	   Mode of travel: <br />
+	   <label>Sky hook<input name="distance" type="checkbox" value="5k" />
+	   </label>
+	   <label>Batmobile <input name="distance" type="checkbox" value="5m" />
+	   </label>
+	   <label>Fox's "aircraft" <input name="distance" type="checkbox" value="10k" />
+	   </label>
+	   <label>Lamborghini<input name="distance" type="checkbox" value="10m" />
+	   </label>
+	   <label>Batcycle <input name="distance" type="checkbox" value="131m" />
+	   </label>
+	   <p>
+		<input type="submit" value="Submit" />
+		<input type="reset" value="Reset" />
+		</p>
+	  </form>
+	  </div>
+	  
+	  <div class="leftColumn">
+		<img src="bat-signal-small.jpg" width="410" height="308" alt="Hey baby, what's your sign?  This is mine.">
+	  </div>
+	  <div class="rightColumn">
+		<h3>Defeated Criminals</h3>
+		<table border="0" summary = "This table contains the contents of Part I: This World">
+			<thead>
+				<tr>
+					<th>Criminal</th>
+					<th>Alter ego</th>
+				</tr>
+			</thead>
+				
+			<tbody>
+				<tr>
+					<td>Dr. Jonathan Crane</td>
+					<td>Scarecrow</td>
+				</tr>
+				<tr>
+					<td>?</td>
+					<td>Joker</td>
+				</tr>
+				<tr>
+					<td>?</td>
+					<td>Bane</td>
+				</tr>
+				<tr>
+					<td>Henri Ducard</td>
+					<td>Ra's Al Ghul</td>
+				</tr>
+				<tr>
+					<td>Harvey Dent</td>
+					<td>Two-Face</td>
+				</tr>
+			</tbody>
+		</table>
+		<h3>The Movies</h3>
+		<ul>
+			<li><a href="http://www.imdb.com/title/tt0372784/">Batman Begins</a></li>
+			<li><a href="http://www.imdb.com/title/tt0468569/">The Dark Knight</a></li>
+			<li><a href="http://www.imdb.com/title/tt1345836/">The Dark Knight Rises</a></li>
+		</ul>
+	  </div>
+
+   </body>
+</html>
